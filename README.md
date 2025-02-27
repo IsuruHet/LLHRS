@@ -77,14 +77,6 @@ Welcome to the **Lab & Lecture Hall Reservation System**, a full-stack applicati
 4. **Configure Environment Variables**  
    Create a `.env` file in `admin-panel/backend` with your MongoDB URI and other settings (see `.env.example` if provided).
 
----
-
-## 📽️ Demo
-Check out our demo video to see the system in action!
-
-*(Insert a link to your demo video here, e.g., YouTube or a hosted file.)*
-
----
 
 ## 👥 Team
 This project was brought to life by:
