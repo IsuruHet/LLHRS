@@ -110,7 +110,7 @@ Have questions or suggestions? Reach out to us at `https://github.com/IsuruHet` 
 1. Copy the entire content above.
 2. Create a new file named `README.md` in your GitHub repository.
 3. Paste this content into `README.md`.
-4. Replace placeholders like `IsuruHet`, `LLHRS`, `isurusula@gamil.com`, and the demo video link with your actual details.
+4. Replace placeholders like `IsuruHet`, `LLHRS`, `isurusula@gmail.com`, and the demo video link with your actual details.
 5. Commit and push the file to your repository:
    ```bash
    git add README.md
