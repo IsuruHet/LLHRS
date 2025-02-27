@@ -49,13 +49,13 @@ Welcome to the **Lab & Lecture Hall Reservation System**, a full-stack applicati
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/IsuruHet/LLHRS.git
+   cd LLHRS
    ```
 
 2. **Set Up the Mobile App**  
    ```bash
-   cd mobile-app
+   cd lab-reservation-ui-main
    flutter pub get
    flutter run
    ```
@@ -63,19 +63,19 @@ Welcome to the **Lab & Lecture Hall Reservation System**, a full-stack applicati
 3. **Set Up the Admin Panel**  
    - **Backend:**  
      ```bash
-     cd admin-panel/backend
+     cd LLHRS-Backend-Render-main
      npm install
      npm start
      ```
    - **Frontend:**  
      ```bash
-     cd admin-panel/frontend
+     cd LLHRS-Admin-Panel-main
      npm install
      npm start
      ```
 
 4. **Configure Environment Variables**  
-   Create a `.env` file in `admin-panel/backend` with your MongoDB URI and other settings (see `.env.example` if provided).
+   Create a `.env` file in `LLHRS-Backend-Render-main` with your MongoDB URI and other settings (see `.env.example` if provided).
 
 
 ## 👥 Team
