@@ -1,0 +1,153 @@
+.user-list-container {
+  padding: 6rem 2rem 2rem 2rem;
+  background-color: #f4f6f7;
+}
+
+.user-list-container h1 {
+  color: #4fadfa;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.create-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 1.5rem;
+  margin-left: 0.5rem;
+  height: 60px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-button:hover {
+  background-color: #45a8f8;
+}
+
+.filter-container input {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.filter-container select {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.user-table-wrapper {
+  max-height: calc(80vh - 2rem);
+  overflow-y: auto;
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.user-table {
+  min-width: 100%;
+  max-height: auto;
+  border-collapse: collapse;
+  background-color: white;
+  table-layout: auto;
+}
+
+.user-table th,
+.user-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #4fadfa;
+  color: white;
+}
+
+.user-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-table tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+.user-table button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.user-table button:hover {
+  background-color: #4fadfa;
+}
+
+.update-delete-btn-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.delete-btn {
+  background-color: #e53935 !important;
+}
+
+@media (max-width: 768px) {
+  .filter-container {
+    display: flex;
+    margin-bottom: 1.5rem;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .filter-container input {
+    margin: 0 0 1rem 0;
+  }
+
+  .filter-container select {
+    margin: 0 0 1rem 0;
+  }
+
+  .filter-container .create-button {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem;
+  }
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  background-color: #45a049;
+  width: 100vw;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+  height: 75px;
+  width: auto;
+}

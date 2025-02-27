@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "962001695927",
+    "project_id": "reserve-e5c04",
+    "storage_bucket": "reserve-e5c04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962001695927:android:7711636d3492197c508932",
+        "android_client_info": {
+          "package_name": "com.shashitha.reserv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtJJNSHgi1kKdWQ281BqQcAWHafLh7cUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

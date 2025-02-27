@@ -1,0 +1,19 @@
+# Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE related files
+.idea/
+.vscode/
+*.iml
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Others
+.DS_Store
+*.swp
